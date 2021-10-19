@@ -8,7 +8,7 @@ import './Home.css';
 const Home = () => {
 	return (
 		// home component of this website
-		<div>
+		<div className="mx-10">
 			<div
 				className="banner"
 				style={{

@@ -11,8 +11,10 @@
 ### Here I use some technoligies:
 
 -   React.js library
-    -React Tailwind
-    -React Router
 -   React icon
 -   Custom json data
-    -Raw CSS
+-   Raw CSS
+-   React Router
+-   React Tailwind
+-   Google Firebase
+-   React Hook Form

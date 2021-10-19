@@ -11,8 +11,9 @@ const Header = () => {
 	};
 
 	return (
+		// navigation bar used here for desktop and below for
 		<nav className="bg-purple-900 text-white">
-			<div className="container py-3 mx-auto flex items-center justify-between for-desktop">
+			<div className="container py-5 mx-auto flex items-center justify-between for-desktop">
 				<div className="text-2xl font-bold ">Dignostic Center</div>
 				<div className="flex items-center justify-between">
 					<Link
