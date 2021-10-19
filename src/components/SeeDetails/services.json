@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"name": "Digital X-ray with Computed Radiography (CR)",
+		"details": "Computed radiography (CR) is the digital replacement of conventional X-ray film radiography and offers enormous advantages for inspection tasks – the use of consumables is virtually eliminated and the time to produce an image is drastically shortened.",
+		"price": "1200tk",
+		"time": "1-3 minutes (depending on scan resolution)",
+
+		"img": "https://productimages.withfloats.com/actual/5d8cf96f4b44520001fedc86.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Colonoscopy",
+		"details": "A colonoscopy (koe-lun-OS-kuh-pee) is an exam used to detect changes or abnormalities in the large intestine (colon) and rectum. During a colonoscopy, a long, flexible tube (colonoscope) is inserted into the rectum. A tiny video camera at the tip of the tube allows the doctor to view the inside of the entire colon.",
+		"price": "4500tk",
+		"time": "15-30 minutes (depending on doctor)",
+
+		"img": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-019-50567-5/MediaObjects/41598_2019_50567_Fig1_HTML.png"
+	},
+	{
+		"id": 3,
+		"name": "Endoscopy",
+		"details": "An endoscopy is a procedure where organs inside your body are looked at using an instrument called an endoscope. An endoscope is a long, thin, flexible tube that has a light and camera at one end. Images of the inside of your body are shown on a television screen.",
+		"price": "6500tk",
+		"time": "15-30 minutes (depending on doctor)",
+		"img": "https://images.medicinenet.com/images/article/main_image/esophagoscopy.jpg"
+	},
+	{
+		"id": 4,
+		"name": "ECG",
+		"details": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.",
+		"price": "2500tk",
+		"time": "10-20 minutes (depending on doctor)",
+		"img": "https://www.theengineeringprojects.com/wp-content/uploads/2017/08/Introduction-to-ECG_3-2.jpg"
+	},
+	{
+		"id": 5,
+		"name": "CT Scan",
+		"details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare.",
+		"price": "3500tk",
+		"time": "15-25 minutes (depending on doctor)",
+		"img": "https://5.imimg.com/data5/CX/RO/GLADMIN-62830647/x-ray-and-ct-scan-course-500x500.png"
+	},
+	{
+		"id": 6,
+		"name": "Ultrasonography",
+		"details": "Listen to pronunciation. (UL-truh-soh-NAH-gruh-fee) A procedure that uses high-energy sound waves to look at tissues and organs inside the body. The sound waves make echoes that form pictures of the tissues and organs on a computer screen (sonogram).",
+		"price": "1500tk",
+		"time": "10-15 minutes (depending on doctor)",
+		"img": "https://c8.alamy.com/comp/RDP3XB/medical-practice-doctor-with-patient-ultrasonography-ultrasound-scanning-RDP3XB.jpg"
+	}
+]

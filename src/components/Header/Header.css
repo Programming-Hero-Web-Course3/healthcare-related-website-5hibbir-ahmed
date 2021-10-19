@@ -1,0 +1,27 @@
+.for-mobile {
+	display: none;
+}
+.btn {
+	display: none;
+}
+.show-option {
+	opacity: 1;
+	height: 200px;
+	visibility: visible;
+}
+.hide-option {
+	opacity: 0;
+	height: 0;
+	visibility: hidden;
+}
+@media (max-width: 768px) {
+	.btn {
+		display: block;
+	}
+	.for-mobile {
+		display: block;
+	}
+	.for-desktop {
+		display: none;
+	}
+}
