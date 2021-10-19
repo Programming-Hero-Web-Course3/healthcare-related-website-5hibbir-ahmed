@@ -16,6 +16,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 function App() {
 	return (
 		<div className="App">
+			{/* all component import in react-router-dom */}
 			<AuthProvider>
 				<BrowserRouter>
 					<Header></Header>

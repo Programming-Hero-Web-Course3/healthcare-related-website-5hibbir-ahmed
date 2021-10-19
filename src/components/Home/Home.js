@@ -7,6 +7,7 @@ import './Home.css';
 
 const Home = () => {
 	return (
+		// home component of this website
 		<div>
 			<div
 				className="banner"

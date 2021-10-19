@@ -3,6 +3,7 @@ import React from 'react';
 import { FaFacebookF, IoLogoTwitter, FaYoutube } from 'react-icons/all';
 
 const Footer = () => {
+	// here some information about this dignostic center in this footer component
 	return (
 		<div className="bg-purple-900 text-white text-left">
 			<div className=" container mx-auto border-b-2 border-purple-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center ">

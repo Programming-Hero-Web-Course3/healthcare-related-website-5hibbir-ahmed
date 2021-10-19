@@ -10,6 +10,8 @@ const HomeService = () => {
 	const onSubmit = (data) => console.log(data);
 	console.log(errors);
 	return (
+		// for bonus mark extra facilities is used here for home
+		// here i use react hook from
 		<div className="my-10 bg-purple-900 w-80 mx-auto rounded-md pb-5 text-white">
 			<div>
 				<p className="font-bold text-xl">

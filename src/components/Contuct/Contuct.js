@@ -2,6 +2,7 @@ import React from 'react';
 
 const Contuct = () => {
 	return (
+		// here contact component here will be number and office address and email address
 		<div style={{ height: '70vh' }}>
 			<div>
 				<h2>Contact Us:</h2>

@@ -8,6 +8,8 @@ import {
 	RiBodyScanLine,
 } from 'react-icons/all';
 const OtherPackeges = () => {
+	// using here react icon ,
+	/* extra services added for bonus mark */
 	return (
 		<div className="container mx-auto text-white my-10 border-b-2 border-purple-900">
 			<div>

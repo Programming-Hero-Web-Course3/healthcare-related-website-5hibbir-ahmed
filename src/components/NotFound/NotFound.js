@@ -1,5 +1,6 @@
 import React from 'react';
 
+// error msg for unknown url
 const NotFound = () => {
 	return (
 		<div className="not-found " style={{ height: '70vh' }}>

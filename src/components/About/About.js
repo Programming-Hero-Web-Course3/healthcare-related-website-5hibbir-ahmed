@@ -2,6 +2,7 @@ import React from 'react';
 
 const About = () => {
 	return (
+		// this is the About component for this website
 		<div style={{ height: '70vh' }}>
 			<div className="container mx-auto">
 				<div>

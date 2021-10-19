@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
+// using hooks for register from,
 const Register = () => {
 	const { signInUsingGoogle, createUser, setEmail, setPassword, setName } =
 		useAuth();
@@ -27,7 +28,7 @@ const Register = () => {
 		e.preventDefault();
 		createUser();
 	};
-
+	// register from
 	return (
 		<div style={{ height: '70vh' }}>
 			<div className="register-form">

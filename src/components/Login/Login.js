@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
+// using hooks here for google login and email password login
 const Login = () => {
 	const { signInUsingGoogle, signUpUser, setEmail, setPassword } = useAuth();
 	const location = useLocation();
