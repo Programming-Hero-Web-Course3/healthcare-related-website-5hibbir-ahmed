@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeService from '../HomeService/HomeService';
+import OtherPackeges from '../OtherPackeges/OtherPackeges';
 import Services from '../Services/Services';
 import dignostic from './dignostic.jpg';
 import './Home.css';
@@ -20,6 +21,7 @@ const Home = () => {
 			</div>
 			<div>
 				<Services></Services>
+				<OtherPackeges></OtherPackeges>
 				<HomeService></HomeService>
 			</div>
 		</div>

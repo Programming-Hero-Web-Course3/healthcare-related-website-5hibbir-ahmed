@@ -10,12 +10,12 @@ const HomeService = () => {
 	const onSubmit = (data) => console.log(data);
 	console.log(errors);
 	return (
-		<div className="my-10">
+		<div className="my-10 bg-purple-900 w-80 mx-auto rounded-md pb-5 text-white">
 			<div>
 				<p className="font-bold text-xl">
 					Our Special Free Home Service Facility :
 				</p>
-				<h4 className="font-sans border-b-2 w-80  mx-auto border-purple-800">
+				<h4 className="font-sans border-b-2 w-80  mx-auto border-purple-400">
 					Covid-Test
 				</h4>
 			</div>
@@ -63,7 +63,7 @@ const HomeService = () => {
 					{...register('Developer', { required: true })}
 				/>
 				<input
-					className="py-2 px-4 bg-purple-700 text-white rounded-md"
+					className="py-2 px-4 mt-4 bg-purple-700 text-white rounded-md"
 					type="submit"
 				/>
 			</form>

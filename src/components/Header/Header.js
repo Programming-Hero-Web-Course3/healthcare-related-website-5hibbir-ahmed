@@ -41,12 +41,21 @@ const Header = () => {
 						Contact
 					</Link>
 				</div>
-				<div>
-					{user.email && <p>{user.displayName}</p>}
+				<div className="flex">
+					{user.email && (
+						<p className="mr-4 font-semibold py-1 px-1 rounded-md hover:bg-purple-600">
+							{user.displayName}
+						</p>
+					)}
 
 					<div>
 						{user.email ? (
-							<button onClick={logOut}>Logout</button>
+							<button
+								className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600"
+								onClick={logOut}
+							>
+								Logout
+							</button>
 						) : (
 							<div>
 								<Link
@@ -69,7 +78,7 @@ const Header = () => {
 
 			{/* for mobile */}
 			<div className="container py-3 mx-auto flex items-center justify-between for-mobile">
-				<div className="text-2xl font-bold ">Dignostic Center</div>
+				<div className="text-4xl font-bold ">Dignostic Center</div>
 				<button className="btn ml-5 text-2xl" onClick={headerBar}>
 					<VscThreeBars />
 				</button>

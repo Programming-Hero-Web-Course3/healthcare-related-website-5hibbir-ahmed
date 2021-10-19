@@ -4,7 +4,7 @@ import { FaFacebookF, IoLogoTwitter, FaYoutube } from 'react-icons/all';
 
 const Footer = () => {
 	return (
-		<div className="bg-purple-700 text-white text-left">
+		<div className="bg-purple-900 text-white text-left">
 			<div className=" container mx-auto border-b-2 border-purple-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center ">
 				<div className="md:w-96 mx-auto">
 					<div className="font-bold text-xl my-5">
@@ -69,7 +69,7 @@ const Footer = () => {
 						</li>
 						<li className="footer-link">Dhaka, Bangladesh</li>
 					</ul>
-					<div className="flex mx-auto my-5 gap-7">
+					<div className="flex my-5 gap-5">
 						<FaFacebookF className="hover:bg-red-600" />
 						<IoLogoTwitter className="hover:bg-red-600" />
 						<FaYoutube className="hover:bg-red-600" />
