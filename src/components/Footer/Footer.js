@@ -6,23 +6,23 @@ const Footer = () => {
 	return (
 		<div className="bg-purple-900 text-white text-left">
 			<div className=" container mx-auto border-b-2 border-purple-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center ">
-				<div className="md:w-96 mx-auto">
-					<div className="font-bold text-xl my-5">
+				<div className="md:w-96 mx-auto ">
+					<div className="font-bold text-xl px-5 my-5 ">
 						Dignostic Center{' '}
 					</div>
-					<p>
+					<p className="px-5">
 						To serve the humanity as a whole with this noble vision
 						the Ibn Sina Trust started its journey in June 1980. The
 						trust has agreed upon to provide health care service.
 					</p>
-					<p className="my-5">
+					<p className="my-5 px-5">
 						House # 48, Road # 9/A, Dhanmondi, Dhaka 1209
 					</p>
 				</div>
 
 				{/* upcoming services */}
-				<div className="mx-auto">
-					<div className="font-bold text-xl my-5">
+				<div className="mx-auto ">
+					<div className="font-bold text-xl  my-5">
 						Our Upcoming Services{' '}
 					</div>
 					<ul className="footer-links">
@@ -78,8 +78,8 @@ const Footer = () => {
 			</div>
 			<div className="text-center p-2">
 				<p className="font-thin text-xs">
-					Copyright © 2021 BRB Hospitals Ltd. Developed by Information
-					Technology Department , BRB Hospitals
+					Copyright © 2021 Dignostic Center Ltd. Developed by
+					Information Technology Department , Dignostic Center.
 				</p>
 			</div>
 		</div>

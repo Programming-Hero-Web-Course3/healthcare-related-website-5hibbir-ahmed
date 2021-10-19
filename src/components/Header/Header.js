@@ -77,37 +77,37 @@ const Header = () => {
 			</div>
 
 			{/* for mobile */}
-			<div className="container py-3 mx-auto flex items-center justify-between for-mobile">
+			<div className="text-center for-mobile">
 				<div className="text-4xl font-bold ">Dignostic Center</div>
 				<button className="btn ml-5 text-2xl" onClick={headerBar}>
 					<VscThreeBars />
 				</button>
 				<div
-					className={`mx-auto flex flex-col justify-center ${
+					className={`mx-auto  flex flex-col justify-center ${
 						toggle ? 'show-option' : 'hide-option'
 					}`}
 				>
 					<Link
-						className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600"
+						className="font-semibold py-1 rounded-md hover:bg-purple-600"
 						to="/home"
 					>
 						Home
 					</Link>
 					<Link
-						className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600 ml-4"
+						className="font-semibold py-1  rounded-md hover:bg-purple-600"
 						to="/about"
 					>
 						About
 					</Link>
 					<Link
-						className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600 ml-4"
+						className="font-semibold py-1  rounded-md hover:bg-purple-600 "
 						to="/service"
 					>
 						Services
 					</Link>
 
 					<Link
-						className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600 ml-4"
+						className="font-semibold py-1 rounded-md hover:bg-purple-600 "
 						to="/contact"
 					>
 						Contact
@@ -119,7 +119,7 @@ const Header = () => {
 						{user.email ? (
 							<button onClick={logOut}>Logout</button>
 						) : (
-							<div>
+							<div className="flex flex-col">
 								<Link
 									className="font-semibold py-1 px-1 rounded-md hover:bg-purple-600"
 									to="/login"
